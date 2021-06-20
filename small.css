@@ -1,0 +1,104 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+   }
+
+   nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+  }
+
+  nav{
+    background-color:#0BC9CD;
+    margin: 0 auto;
+  }
+
+  .navigation{
+    list-style: none;
+    padding: 0;
+  }
+
+  .navigation li:first-child{
+    display: block;
+  }
+
+  .navigation a{
+    display: block;
+    text-align: left;
+  }
+
+  .responsive li {
+    display: block;
+  }
+
+  nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li a{
+      display: block;
+      padding: .8rem 2%;
+      text-decoration: none;
+      color: #000;
+      border-top: 1px solid rgba(0,0,0,.4);
+  }
+
+  nav ul li a:hover{
+      background-color: #08989b;
+  }
+
+  nav ul li.active a{
+      background-color: #066568;
+      color: #fff;
+  }
+
+  nav ul li a:hover{
+    background-color: #08989b;
+}
+
+  h2{
+    color: #EBC20B;
+  }
+
+footer{
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.63) 10%,
+        rgba(12, 10, 10, 0)
+      );
+      padding: 10px;
+  }
+
+  /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* @media only screen and (min-width: 32.5) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+} */

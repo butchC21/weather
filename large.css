@@ -1,0 +1,43 @@
+header {
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+header, footer{
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.63) 10%,
+        rgba(12, 10, 10, 0)
+      );
+  }
+
+  .tagline {
+	letter-spacing: 1pt;
+	color: darkslateblue;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+h1{
+	margin-bottom: 0;
+}
+
+.hero{
+	border: 2px solid rgba(0,0,0,.30);
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	background-color: honeydew;
+}
