@@ -1,7 +1,7 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
+/* @media only screen and (min-width: 64rem) {} */
 
-} /*end large */
+/* end large */
 
 header {
 	padding: 5px 0;
@@ -20,20 +20,23 @@ header img {
 	flex-direction: column;
 }
 
-.headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+footer{
+    background: linear-gradient(
+        180deg,
+        rgba(8, 8, 8, 0.63) 10%,
+        rgba(12, 10, 10, 0)
+      );
+
+	  border: 2px solid red;
+  }
+
+  .tagline {
+	letter-spacing: 1pt;
+	color: darkslateblue;
+	margin-left: 20px;
+	font-size: .9rem;
 }
 
-/* Larger viewports */
-@media only screen and (min-width: 32.5em) {
-	h1 {
-		font-size: 3rem;
-	}
-
-	.m {
-		letter-spacing: 1.5pt;
-		font-size: larger;
-		margin-left: 17px;
-	}
+h1{
+	margin-bottom: 0;
 }
