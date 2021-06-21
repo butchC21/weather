@@ -35,7 +35,7 @@ h1{
 }
 
 .hero{
-	border: 2px solid rgba(0,0,0,.30);
+	border: 4px double rgba(0,0,0,.30);
 	font-size: 20px;
 	padding: 10px;
 	margin: 10px 0 10px 0;
